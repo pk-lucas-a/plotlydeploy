@@ -85,9 +85,9 @@ function buildCharts(sample) {
 
     // 8. Create the trace for the bar chart. 
     var barData = [{
-      y: yticks
-      x: xvals
-      text: hoverLabels
+      y: yticks,
+      x: xvals,
+      text: hoverLabels,
       type: "bar",
       orientation: "h"
     }];
